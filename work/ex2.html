@@ -18,6 +18,30 @@
     <input type="text" id="password" placeholder="Enter your password"><br><br>
 
     <label>Gender:</label><br>
+    <from action="">
+        <input type="radio" name="gender" value="male" checked>Male
+        <input type="radio" name="gender" value="male" >Female
+        <input type="radio" name="gender" value="male" >Other
+    </from>
+
+    <p>Hobbies</p>
+    <input type="checkbox"> Reading
+    <input type="checkbox"> Sports
+    <input type="checkbox"> Music<br><br>
+
+    <!-- <p>Country:</p>  -->
+    <from action="">
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="cambodia">Cambodia</option>
+            <option value="china">China</option>
+            <option value="vietnam">Vietnam</option>
+        </select>
+    </from>
+
+    <p>Upload Profile Picture: <input type="file" name="myImage" accept="image/png, image/gif, image/jpeg" /></p> 
+
+    <button type="submit">Register</button>
 
 </body>
 </html>
